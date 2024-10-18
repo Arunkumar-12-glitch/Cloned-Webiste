@@ -1,190 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix</title>
+    <title>Simple Spotify Clone</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <!-- Top section for Navigation and Title section -->
-    <section class="top">
-        <nav>
-            <div class="nav-bar">
-                <img src="assets/NetflixLogoSvg.png" alt="Netflix Logo" class="logo">
-                <ul>
-                    <li><strong>Start</strong></li>
-                    <li>Shows</li>
-                    <li>Movies</li>
-                    <li>New</li>
-                    <li>My List</li>
-                </ul>
-            </div>
-            <div class="menu">
-                <ul>
-                    <li><img src="assets/Search.png" alt="search"></li>
-                    <li><img src="assets/GiftBox.png" alt="gift"></li>
-                    <li><img src="assets/NotificationBell.png" alt="bell"></li>
-                    <li><img src="assets/face.png" alt="face"></li>
-                    <li><img src="assets/DownArrow.png" alt="dropdown"></li>
-
-                </ul>
-            </div>
+    <div class="container">
+        <nav class="navbar">
+            <h1>MyTunes</h1>
+            <ul>
+                <li>Home</li>
+                <li>Search</li>
+                <li>Library</li>
+            </ul>
         </nav>
-        <div class="title">
-            <div class="show">
-                <img src="assets/Netflix_Symbol_RGB 1.png" alt="netflix-logo" width="30px">
-                <p>SHOW</p>
-            </div>
-            <div class="name">
-                <h1>MAID</h1>
-            </div>
-            <div class="name-buttons">
-                <button class="play-btn">
-                    <img src="assets/Play.png" alt="play-btn" width="15px">
-                    <p>Play</p>
-                </button>
-                <button class="info-btn">
-                    <img src="assets/Detail.png" alt="info-btn">
-                    <p>More Info</p>
-                </button>
-            </div>
-        </div>
-        <div class="footer">
-            <div class="foot-bottom">
-                <div class="See-again-head">
-                    <p>See Again</p>
-                    <img src="assets/ArrowRight.png" alt="right-arrow" height="15px">
-                </div>
-                <img src="assets/Add.png" alt="">
-            </div>
-        </div>
-    </section>
 
-    <!-- Middle section for all the shows and movie recommendations -->
-    <section class="middle">
-        <div class="See-again">
-            <img src="assets/Top10Badge.png" alt="top-ten badge" id="top10">
-            <div class="images">
-                <img src="assets/Tile Component-1.png" alt="Snow Piercer">
-                <img src="assets/Tile Component-2.png" alt="Sense 8">
-                <img src="assets/Tile Component-3.png" alt="Another Life">
-                <img src="assets/Tile Component-4.png" alt="Queen's gambit">
-                <img src="assets/Tile Component-5.png" alt="Into the night">
+        <main class="main-content">
+            <h2>Playlists</h2>
+            <div class="playlist">
+                <h3>Chill Vibes</h3>
+                <p>Relax and unwind with these smooth tracks.</p>
             </div>
-        </div>
-        <div class="topTen">
-            <div class="heading">
-                <p>Top 10 in your country</p>
-                <img src="assets/ArrowRight.png" alt="below" height="15px">
+            <div class="playlist">
+                <h3>Workout Mix</h3>
+                <p>Get pumped up with this energizing playlist.</p>
             </div>
-            <div class="images">
-                <div class="rank">
-                    <img src="assets/Rank - 01.png" alt="Rank 1">
-                    <img src="assets/Red notice.png" alt="red notice">
-                </div>
-                <div class="rank">
-                    <img src="assets/Rank - 02.png" alt="Rank 2">
-                    <img src="assets/Jason.png" alt="Jason">
-                </div>
-                <div class="rank">
-                    <img src="assets/Rank - 03.png" alt="Rank 3">
-                    <img src="assets/Squid.png" alt="">
-                </div>
-                <div class="rank">
-                    <img src="assets/Rank - 04.png" alt="Rank 4">
-                    <img src="assets/CI.png" alt="CI">
-                </div>
-                <div class="rank">
-                    <img src="assets/Rank - 05.png" alt="Rank 5">
-                    <img src="assets/Hell.png" alt="HellBound">
-                </div>
+            <div class="playlist">
+                <h3>Top Hits</h3>
+                <p>Listen to the most popular songs right now.</p>
             </div>
-        </div>
+        </main>
 
-        <div class="Trending">
-            <div class="heading">
-                <p>Trending in your country</p>
-                <img src="assets/ArrowRight.png" alt="" height="15px">
-            </div>
-            <img src="assets/Top10Badge.png" alt="top-10" id="top10">
-            <div class="images">
-                <img src="assets/Dog.png" alt="Dog">
-                <img src="assets/Tile Component-5.png" alt="Into the might">
-                <img src="assets/Lockey.png" alt="Losk Key">
-                <img src="assets/Tile Component-3.png" alt="Another life">
-                <img src="assets/Crown.png" alt="The Crown">
-            </div>
-        </div>
-        <div class="Sci-fi">
-            <div class="heading">
-                <p>Sci-fi Shows</p>
-                <img src="assets/ArrowRight.png" alt="" height="15px">
-            </div>
-            <img src="assets/Top10Badge.png" alt="" id="top10">
-            <div class="images">
-                <img src="assets/Altered carbon.png" alt="Altered Carbon">
-                <img src="assets/Tile Component-3.png" alt="Another life">
-                <img src="assets/Umbrella.png" alt="Umbrella Academy">
-                <img src="assets/Tile Component-2.png" alt="Sense 8">
-                <img src="assets/Rain.png" alt="The Rain">
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer to mention to socials and license -->
-    <footer>
-        <div class="bottom">
-            <div class="socials">
-                <img src="assets/facebook2.png" alt="facebook">
-                <img src="assets/instagram2.png" alt="instagram">
-                <img src="assets/twitter2.png" alt="twitter">
-                <img src="assets/youtube2.png" alt="youtube">
-            </div>
-            <!-- Artists -->
-            <div class="artists">
-                <div class="artist-1">
-                    <ul>
-                        <li>Seslendirme ve Alt Yazi</li>
-                        <li>Medya Merkezi</li>
-                        <li>Gizlik</li>
-                        <li>Bize Ulazin</li>
-                    </ul>
-                </div>
-                <div class="artist-2">
-                    <ul>
-                        <li>Uahana</li>
-                        <li>Medya Manavar</li>
-                        <li>Kardashian</li>
-
-                    </ul>
-                </div>
-                <div class="artist-3">
-                    <ul>
-                        <li>Seslei Betmayim</li>
-                        <li>Rosa Fedora</li>
-                        <li>Albus Dumbledore</li>
-                    </ul>
-                </div>
-                <div class="artist-4">
-                    <ul>
-                        <li>Jennifer Kassir</li>
-                        <li>Anthony Alba</li>
-                        <li>Achara Kirk</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="highlight">
-                Hizmet Kodu
-            </div>
-            <div class="copyright">
-                ©(1992-2021) Netflix, Inc. {I-398983298Afer56}
-            </div>
-        </div>
-    </footer>
+        <footer class="footer">
+            <p>&copy; 2024 MyTunes</p>
+        </footer>
+    </div>
 </body>
-
 </html>
