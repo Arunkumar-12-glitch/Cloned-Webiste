@@ -1,15 +1,12 @@
-# netflix-clone-boilerplate
+- 👋 Hi, I’m @Arunkumar-12-glitch
+- 👀 I’m interested in playing cricket
+- 🌱 I’m currently learning 
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
 
-## Here is the expected output
-
-![](https://github.com/Kalvium-Program/netflix-clone-boilerplate/blob/main/assets/Netflix%20Web%20UI.png?raw=true)
-
-Fork this repo and get started with the cloning project.
-
-## Additional details:
-Use color picker extensions link [colorpick-eyedropper](https://chrome.google.com/webstore/detail/colorpick-eyedropper/) in Google chrome to get the exact colors used in the webpage.
-
-The font used: Roboto & Nunito Sans
-
-
-If you need more icons you can visit [flaticons.com](https://www.flaticon.com/)
+<!---
+Arunkumar-12-glitch/Arunkumar-12-glitch is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
