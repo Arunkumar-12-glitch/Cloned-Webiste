@@ -1,4 +1,4 @@
-  @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap');
 
 *{
     box-sizing: border-box;
@@ -178,4 +178,268 @@ footer{
     margin-top: 25px;
     margin-left: 46px;
     align-items: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+body {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+/* Top section styling */
+.top {
+    background: rgba(0, 0, 0, 0.7) url("assets/Title-Image.png") no-repeat center center/cover;
+    height: 100vh;
+}
+
+nav {
+    height: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 120px;
+}
+
+nav ul li {
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li {
+    margin: 0 10px;
+}
+
+.title {
+    margin: 150px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.show {
+    display: flex;
+    align-items: center;
+}
+
+.show img {
+    margin-right: 10px;
+}
+
+.show p {
+    letter-spacing: 5px;
+    font-size: 18px;
+}
+
+.name h1 {
+    font-size: 80px;
+    margin: 20px 0;
+}
+
+.name-buttons {
+    display: flex;
+}
+
+.play-btn, .info-btn {
+    margin-right: 10px;
+    padding: 10px 25px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.play-btn {
+    background-color: white;
+    color: black;
+}
+
+.info-btn {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid white;
+}
+
+.footer {
+    margin-top: auto;
+    padding: 20px 50px;
+}
+
+.foot-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-bottom img {
+    margin-left: 10px;
+}
+
+/* Middle section for shows */
+.middle {
+    background-color: rgb(20, 20, 20);
+    padding: 40px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.images img {
+    width: 210px;
+    margin: 10px;
+}
+
+#top10 {
+    position: relative;
+    left: 255px;
+    top: 50px;
+}
+
+.topTen .rank {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.topTen .rank img {
+    width: 100px;
+    height: auto;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(20, 20, 20);
+    padding: 40px 20px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+}
+
+.socials img {
+    margin: 10px;
+    width: 30px;
+}
+
+.artists {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.artists ul {
+    list-style: none;
+}
+
+.artists ul li {
+    color: rgb(128, 128, 128);
+    margin: 10px 0;
+}
+
+.highlight {
+    color: rgb(128, 128, 128);
+    border: 2px solid rgb(128, 128, 128);
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.copyright {
+    color: rgb(128, 128, 128);
+    margin: 20px 8px;
+    text-align: center;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    .logo {
+        width: 80px;
+    }
+
+    .title {
+        margin: 100px 20px;
+        text-align: center;
+    }
+
+    .name h1 {
+        font-size: 60px;
+    }
+
+    .name-buttons {
+        justify-content: center;
+    }
+
+    .footer {
+        text-align: center;
+        padding: 20px 10px;
+    }
+
+    .images {
+        justify-content: center;
+    }
+
+    .images img {
+        width: 150px;
+        margin: 5px;
+    }
+
+    .topTen .rank img {
+        width: 80px;
+    }
+
+    .socials img {
+        width: 25px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    nav ul, .menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .name h1 {
+        font-size: 40px;
+    }
+
+    .play-btn, .info-btn {
+        font-size: 14px;
+        padding: 8px 20px;
+    }
+
+    .images img {
+        width: 120px;
+    }
+
+    .topTen .rank img {
+        width: 60px;
+    }
 }
